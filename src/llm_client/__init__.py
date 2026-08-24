@@ -1,6 +1,6 @@
-from client import LLMClient
-from config import LLMConfig
-from exceptions import LLMAPIError, LLMConfigError, LLMError, LLMRateLimitError
+from .client import LLMClient
+from .config import LLMConfig
+from .exceptions import LLMAPIError, LLMConfigError, LLMError, LLMRateLimitError
 
 __all__ = [
     "LLMClient",

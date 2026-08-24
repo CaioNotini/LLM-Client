@@ -1,7 +1,7 @@
-from config import LLMConfig
-from exceptions import LLMConfigError
-from providers.base import BaseProvider
-from providers.groqAPI import GroqProvider
+from .config import LLMConfig
+from .exceptions import LLMConfigError
+from .providers.base import BaseProvider
+from .providers.groq import GroqProvider
 
 
 class LLMClient:

@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+src/llm_client/__init__.py
+src/llm_client/client.py
+src/llm_client/config.py
+src/llm_client/exceptions.py
+src/llm_client.egg-info/PKG-INFO
+src/llm_client.egg-info/SOURCES.txt
+src/llm_client.egg-info/dependency_links.txt
+src/llm_client.egg-info/requires.txt
+src/llm_client.egg-info/top_level.txt
+src/llm_client/providers/base.py
+src/llm_client/providers/groqAPI.py
+tests/test_client.py
