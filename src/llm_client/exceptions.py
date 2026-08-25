@@ -17,3 +17,5 @@ class LLMAPIError(LLMError):
 class LLMRateLimitError(LLMError):
     """Exception raised when the LLM provider's rate limit is exceeded."""
     
+class LLMAuthenticationError(LLMError):
+    """Exception raised when authentication with the LLM provider fails."""
